@@ -1,0 +1,28 @@
+{
+  "name": "devbees",
+  "main": "webpack.config.js",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "webpack --config webpack.prod.js",
+    "watch": "webpack --watch --config webpack.dev.js"
+  },
+  "author": "Mateusz Górzański",
+  "devDependencies": {
+    "autoprefixer": "^7.2.6",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^0.28.9",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "node-sass": "^4.11.0",
+    "postcss-loader": "^2.1.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.20.1",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "normalize.css": "^7.0.0"
+  }
+}
