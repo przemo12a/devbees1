@@ -1,0 +1,97 @@
+---
+layout: default
+path: "."
+---
+
+<main class="main">
+    <section class="fragment" id="o-nas">
+        <div class="fragment__item">
+            <div class="fragment__paragraph">
+                <h4 class="fragment__subtitle">O nas</h4>
+                <h2 class="fragment__title">DevBees stanowi zespół młodych, początkujących twórców.</h2>
+                <p class="fragment__content">Jesteśmy małym zespołem, mającym na celu tworzenie nieprzeciętnych gier oraz programów, który również kieruje się dewizą, że drogo nie znaczy dobrze, gdyż korzystamy tylko z programów Open Source lub takich, które nie wymagają ich zakupu.</p>
+            </div>
+            <div class="fragment__featured-image">
+                <img src="{{ page.path }}/assets/images/featured_image_1.png" alt>
+            </div>
+        </div>
+
+        <div class="fragment__item fragment--odd">
+            <div class="fragment__featured-image">
+                <img src="{{ page.path }}/assets/images/featured_image_2.png" alt>
+            </div>
+            <div class="fragment__paragraph">
+                <h4 class="fragment__subtitle">Koszty</h4>
+                <h2 class="fragment__title">Nie wymagamy żadnych płatnych programów.</h2>
+                <p class="fragment__content">W naszej skromnej firmie postawiliśmy sobie warunek - aby to co robimy było za darmo, bez żadnych ukrytych kosztów. Dlatego cały czas poszukujemy programów na licencji open source (darmowych), bądź takich, w których opłaty za wyższe wersje programu nie będą przeszkadzały w pracowaniu z daną aplikacją.</p>
+            </div>
+        </div>
+
+        <div class="fragment__item">
+            <div class="fragment__paragraph">
+                <h4 class="fragment__subtitle">Rekrutacja</h4>
+                <h2 class="fragment__title">Możesz dołączyć do nas kiedy chcesz!</h2>
+                <p class="fragment__content">Pamiętaj, że prawdopodobnie większość z nas tutaj zgromadzonych nie ma zbyt dużego doświadczenia, więc i takie nie jest również wymagane. Pamiętaj chcemy się uczyć, a nie zarabiać pieniądze. Dlatego też, jeżeli przychodzisz tutaj z małym doświadczeniem, to nie ma znaczenia. Z biegiem czasu nauczymy się wszystkiego.</p>
+            </div>
+            <div class="fragment__featured-image">
+                <img src="{{ page.path }}/assets/images/featured_image_3.png" alt>
+            </div>
+        </div>
+
+        <p class="fragment__button"><a href="#dolacz-juz-dzis">Dołącz już dziś!</a></p>
+    </section>
+
+    <section class="fragment fragment--bg-red" id="nasze-pomysly">
+        <h2 class="fragment__title fragment__title--dark">Dark Day</h2>
+        <div class="fragment__content fragment__content--white">
+            <p>Gra to przygodowy horror, opowiadająca o Benie, który musi się zmierzyć z inwazją obcych, którzy blokują dostęp do słońca, przez co całe życie w małym miasteczku zamiera. Będzie tworzona w 2d, z widokiem z boku postaci. Postawimy w niej na stworzenie mrocznego i niepokojącego klimatu, pozwalającemu graczowi wniknąć w świat i zatracić się w nim. Będzie postawiony przed wieloma wyborami, co doprowadzi nas do jednego z kilku zakończeń. Czy mu się uda?</p>
+            <p>
+                <img src="{{ page.path }}/assets/images/illustration.png" alt="Ilustracja">
+            </p>
+        </div>
+    </section>
+
+    <section class="fragment fragment--medium" id="sektory-dzialania">
+        <h2 class="fragment__title fragment__title--red">Sektory działania</h2>
+        <div class="fragment__content fragment__content--sections">
+            <div class="fragment__item-left">
+                <div class="fragment__item-image">
+                    <img src="{{ page.path }}/assets/images/sector_1.png" alt="Logika">
+                </div>
+                <h3 class="fragment__title">Logika</h3>
+                <p>Sektor odpowiedzialny za działanie gry lub programu. Przyda się tutaj znajomość języków programowania.</p>
+            </div>
+            <div class="fragment__item-center">
+                <div class="fragment__item-image">
+                    <img src="{{ page.path }}/assets/images/sector_2.png" alt="Fabuła i planowanie">
+                </div>
+                <h3 class="fragment__title">Fabuła i planowanie</h3>
+                <p>Sektor odpowiedzialny tak naprawdę za wszystko inne, od planowania całej pracy po pojedyncze rzeczy. W tym sektorze podejmowane będą decyzje co do najważniejszych rzeczy związanych z programem lub grą, a więc efektem końcowym. Będzie to także sektor odpowiedzialny za marketing.</p>
+            </div>
+            <div class="fragment__item-right">
+                <div class="fragment__item-image">
+                    <img src="{{ page.path }}/assets/images/sector_3.png" alt="Audio - Visual">
+                </div>
+                <h3 class="fragment__title">Audio - Visual</h3>
+                <p>Sektor odpowiedzialny za wszystko co widać i słychać na scenie. Przydadzą się tutaj kreatywne umysły zaznajomione z programami do obróbki dźwięku oraz grafiki.Nie zależnie od umiejętności napewno się przydasz.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="fragment fragment--tight" id="dolacz-juz-dzis">
+        <h2 class="fragment__title fragment__title--contact">Zgłoś się już dziś!</h2>
+        <div class="fragment__content fragment__content--form">
+            <form action="mailto:pinkbananasstudio@gmail.com" method="get">
+                <input type="text" name="name" placeholder="Imię" class="form-input">
+                <input type="email" name="email" placeholder="Email" class="form-input">
+                <input type="text" name="sector" placeholder="Do którego działu chciałbyś należeć?" class="form-input">
+                <div class="form-textarea-row">
+                    <textarea name="content" placeholder="W czym chciałbyś pomóc? Jakie są twoje umiejętności?" class="form-textarea"></textarea>
+                </div>
+                <div class="form-button-row">
+                    <button class="form-button" type="submit">Wyślij</button>
+                </div>
+            </form>
+        </div>
+    </section>
+</main>
